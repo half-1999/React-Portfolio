@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function Navbar() {
   return (
     <>
-    <div className="preloader">
+    {/* <div className="preloader">
 			<div className="sk-spinner sk-spinner-wave">
      	 		<div className="sk-rect1"></div>`
        			<div className="sk-rect2"></div>
@@ -12,7 +12,7 @@ function Navbar() {
       	 		<div className="sk-rect4"></div>
       			<div className="sk-rect5"></div>
      		</div>
-    </div> 
+    </div>  */}
 	<nav className="navbar navbar-default templatemo-nav" role="navigation">
 			<div className="container">
 				<div className="navbar-header">
@@ -21,7 +21,7 @@ function Navbar() {
 						<span className="icon icon-bar"></span>
 						<span className="icon icon-bar"></span>
 					</button>
-					<Link to="/" className="navbar-brand"> <img src="assets/images/LOGO.jpeg" height="60px" width="150px"/> </Link>
+					<Link to="/" className="navbar-brand"> <img src="assets/images/LOGO.jpeg " height="60px" width="150px"/> </Link>
 				</div>
 				<div className="collapse navbar-collapse color">
 					<ul className="nav navbar-nav navbar-right">
